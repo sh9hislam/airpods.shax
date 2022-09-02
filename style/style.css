@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "mb";
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header__nav{
+    background: #282828;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+padding: 6px 0px;
+}
+.header__nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav-left{
+    display: flex;
+    gap: 30px;
+}
+.header__nav-list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header__nav-link{
+font-size: 16px;
+line-height: 24px;
+text-align: right;
+color: #FFFFFF;
+}
+.header__nav-right{
+    display: flex;
+   gap: 25px;
+}
+.header__content{
+    background: url(../images/header-bg.jpg)no-repeat top/ cover;
+    height: 700px;
+}
+.header__content-inner{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.header__content-tittle{
+font-weight: 400;
+font-size: 100px;
+line-height: 75px;
+color: #FFFFFF;
+font-family: "pop";
+}
+.header__content-link{
+font-family: "mm";
+padding: 14px 40px 14px 14px;
+background: #FFFFFF;
+border-radius: 10px;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #171718;
+position: relative;
+}
+.header__content-link::after{
+    content: url(../images/Vector.png);
+    position: absolute;
+    top: 14px;
+    right: 13px;
+}
+
+.main{
+    background: #151515;
+}
+
+.section__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.section__inner-text{
+    padding-top: 33px;
+   max-width: 538px;
+   font-family: "mm";
+   font-size: 22px;
+line-height: 27px;
+color: #FFFFFF;
+}
+.second__section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    align-items: center;
+}
+.second__section-text{
+font-size: 22px;
+line-height: 27px;
+color: #FFFFFF;
+font-family: "mm";
+max-width: 538px;
+}
+.third__section{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    gap: 90px;
+}
+.third__section-text{
+font-family: "mb";
+font-size: 20px;
+line-height: 24px;
+color: #ffffff;
+max-width: 333px;
+}
+
+.third__section-text:nth-of-type(1){
+    text-align: right;
+}
+
+.third__section-img{
+    position: relative;
+    display: block;   
+}
+
+.third__section-img::before{
+    content: "";
+    left: -75px;
+    top: 205px;
+    display: block;
+    position: absolute;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+}
+.third__section-img::after{
+    content: "";
+    left: -75px;
+    top: 205px;
+    display: block;
+    position: absolute;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+    
+}
+.section__phone{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+.section__phone-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+border-radius: 6px;
+max-width: 25%;
+width: 100%;
+flex-direction: column;
+gap: 10px;
+padding: 15px 0;
+}
+.section__phone-tittle{
+    font-size: 20px;
+    line-height: 24px;    
+    color: #000000;   
+}
+.section__phone-text{
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: #000000;
+font-family: "mm";
+margin-bottom: 10px;
+}
+.section__phone-btn{
+    border: none;
+    outline: none;
+    padding: 7px 57px;
+    background: #151515;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+  
+}
+.footer {
+    height: 215px;
+    background: #282828;
+  }
+ .footer__inner{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 215px;
+ }
+ .footer-list{
+    display: flex;
+    gap: 30px;
+ }
+ .footer-link{
+    font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+ }
+ .footer-cards{
+    display: flex;
+    gap: 30px;
+    margin-right: 12px;
+ }
