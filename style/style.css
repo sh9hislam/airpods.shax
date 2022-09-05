@@ -146,6 +146,7 @@ max-width: 333px;
     height: 1px;
     background: #c4c4c4;
 }
+
 .third__section-img::after{
     content: "";
     left: -75px;
